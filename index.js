@@ -4,7 +4,7 @@
 	process.on('uncaughtException', error => console.error(error));
 
 	const chalk = require("chalk");
-	const login = require("fb-chat-api");
+	const login = require("fca-smart-shankar");
 	const { writeFileSync } = require("fs-extra");
 
 	const print = require("./logger/print.js");
